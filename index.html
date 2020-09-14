@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Freelancer Ripon | Home</title>
+     
+     <!-- Linking my own external css -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Linking Bootstrap 4 css, js -->
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Fontawesome icons kit -->
+    <script src="https://kit.fontawesome.com/a4b35d2abc.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ 
+      <!-- My navigation bar strat here -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      	<div class="container">
+  <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PAGES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PROJECTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="showsearch" href="#"><i class="fa fa-search MyIcon" id="searchIcon"></i></a>
+        <div class="search"> 
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </div>
+      </li>
+      
+     </ul>
+   </div>
+   </div>
+ </nav>
+
+<section id="slider">
+	<div class="sliderImg">
+		<div class="sliderInfo">
+		 <div class="sliderInfo">
+		  <h1>Best Quality Steel For Construction</h1>
+		  <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem.</p>
+		  <button class="btn btn-danger">WORK WITH US</button>
+		 </div>
+	    </div>
+	</div>
+</section>
+    
+
+
+
+
+<!-- preloader -->
+
+<div class="preloader-wrapper">
+ <div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+ </div>
+</div>
+
+	<!-- Bootstrap grid example -->
+<!-- 	<div class="container">
+		<div class="row">
+		  <div class="col-md-3 col-lg-3 col-sm-6 col-9 m-auto" id="test-divs"> his is collum 1</div>
+		  <div class="col-md-3 col-lg-3 col-sm-6 col-9 m-auto"  id="test-divs" > his is collum 2</div>
+		  <div class="col-md-3 col-lg-3 col-sm-6 col-9 m-auto"  id="test-divs" > his is collum 3</div>
+		  <div class="col-md-3 col-lg-3 col-sm-6 col-9 m-auto"  id="test-divs" >is is collum 4 </div>
+	    </div>
+	</div> -->
+
+<!-- My own Js  -->
+<script src="script.js"></script>
+
+<script>
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 1800;
+function hidePreloader() {
+var preloader = $('.preloader-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+</script>
+</body>
+</html>
