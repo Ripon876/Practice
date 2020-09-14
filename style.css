@@ -1,3 +1,5 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -14,24 +16,37 @@ body{
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Oswald', sans-serif;
 }
-/*Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
+
 
 .slider{
 	width: 100%;
 }
 .sliderImg{
-	background-image: linear-gradient(
-    rgb(0 0 0 / 15%),
-    rgb(0 0 0 / 20%)
-    ),url(img/slide-1.jpg);
+	background-image:url(img/slide-1.jpg);
     background-position: center center;
     height: 560px;
     width: 100% ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
 }
+.sliderInfo {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    color: white;
+}
+.Info h1{
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.4;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em;
+}
+
 /*My own css of navbar start here*/
 
 .navbar{
@@ -41,6 +56,10 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar-collapse{
 	text-align: center;
+}
+a.nav-link {
+    padding-left: 33px !important;
+    font-size: 15px !important;
 }
 .nav-link{
 	color: #000 !important;
