@@ -1,52 +1,93 @@
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .sliderImg{
 
-@media only screen and (max-width: 320px) {
-
-	.sliderImg{
-
-    height: 160px;
+    height: 200px;
     width: 100% ;
-
+    }
+    .Info h1{
+        font-size: 20px;
+    }
+    .Info p{
+        font-size: 14px;
+        width: 300px;
+        margin: 0px 0px 5px 0px
+    }
+    button.btn.btn-danger{
+        padding:5px;
+        font-size: 10px
+    }
+    .sliderInfo {
+        top:20%;
+    }
 }
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .sliderImg{
+    height: 270px;
+    width: 100% ;
+    }
+    .Info h1{
+        font-size: 30px;
+    }
+    .Info p{
+        width: 400px;
+        margin: 5px 0px 10px 0px
+    }
+    button.btn.btn-danger{
+        padding:5px;
+    }
+    .sliderInfo {
+        top:20%;
+    }
 }
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .sliderImg{
 
-@media only screen and (max-width: 480px) {
+    height: 400px;
+    width: 100% ;
+    }
+     .Info h1{
+        font-size: 35px;
+    }
+    .Info p{
+        width: 450px;
+        margin: 5px 0px 10px 0px
+    }
+    button.btn.btn-danger{
+        padding:5px;
+    }
+    .sliderInfo {
+        top:30%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px){
+    .sliderImg{
 
-	.sliderImg{
-    height: 260px;
+    height: 460px;
     width: 100% ;
 }
 }
+@media only screen and (min-width: 900px) and (max-width: 1023px){
+    .sliderImg{
 
-@media only screen and (max-width: 600px) {
-
-	.sliderImg{
-    height: 360px;
-     width: 100% ;
-}
-}
-
-@media only screen and (max-width: 768px) {
-
-	.sliderImg{
-
-    height: 420px;
+    height: 480px;
     width: 100% ;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .sliderImg{
+
+    height: 540px;
+    width: 100% ;
+    }
+    .Info p{
+        width: 450px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
    
-}
-}
-
-@media only screen and (max-width: 900px) {
-
-	.sliderImg{
-    height: 450px;
-    width: 100% ;
-}
-}
-
-@media only screen and (max-width: 1024px) {
-
-	.sliderImg{
-    height: 560px;
-    width: 100% ;
-}
+    .Info p{
+        font-weight: 500;
+        width: 500px;
+        letter-spacing: 0.5px;
+    }
 }
