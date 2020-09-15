@@ -4,11 +4,7 @@
 	margin: 0;
 	padding: 0;
 }
-#test-divs{
-	background: orange;
-	border-radius: 5px;
-	width: 100%;
-}
+
 body{
 	margin:0;
 	padding: 0;
@@ -18,42 +14,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.slider{
-	width: 100%;
-}
-.sliderImg{
-	background-image:url(img/slide-1.jpg);
-    background-position: center center;
-    height: 560px;
-    width: 100% ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-    animation: mymove 10s infinite;
- /*   transition: all 2s;*/
-}
-.sliderInfo {
-    position: absolute;
-    top: 25%;
-    left: 9%;
-    color: white;
-}
-.Info h1{
-  font-size: 50px;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  line-height: 1.4;
-  font-weight: 500 !important;
-  letter-spacing: 0.02em;
-}
-button.btn.btn-danger {
-    background: #fb5200;
-    border: 1px solid #fb5200;
-    padding: .75em 2.4em;
-    font-size: 16px;
-    font-weight: 500;
-}
 
 
 /*My own css of navbar start here   */
@@ -91,6 +51,92 @@ a.nav-link {
 }
 
 
+/*Slider css start here*/
+.slider{
+	width: 100%;
+}
+.sliderImg{
+	background-image:url(img/slide-1.jpg);
+    background-position: center center;
+    height: 560px;
+    width: 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    animation: mymove 10s infinite;
+ /*   transition: all 2s;*/
+}
+.sliderInfo {
+    position: absolute;
+    top: 24%;
+    left: 9%;
+    color: white;
+}
+.Info h1{
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.4;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em;
+}
+button.btn.btn-danger {
+    background: #fb5200;
+    border: 1px solid #fb5200;
+    padding: .75em 2.4em;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Info p {
+    margin: 25px 0 35px 0;
+}
+
+/*Services  css start*/
+#services{
+	background: #f6f6f6;
+	padding-top: 80px;
+	height: 550px;
+}
+#service-item{
+	background: orange;
+	border-radius: 5px;
+	width: 100%;
+	height: 350px;
+	margin: 15px !important;
+}
+.service-icon {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+i.fas.fa-drafting-compass.my-main-icon {margin-top: 30px;}
+
+div#service-item {
+    text-align: center;
+}
+.service-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.service-info h5 {
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+
+}
+.service-info p {
+    text-align: center;
+    margin: 10px 20px;
+    padding-top: 23px;
+    font-weight: 500;
+    color: #656565;
+    line-height: 1.5;
+}
 /*preloader*/
 
 .preloader-wrapper{
