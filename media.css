@@ -19,6 +19,9 @@
     .sliderInfo {
         top:20%;
     }
+     #services{
+        height: 1550px
+    }
 }
 @media only screen and (min-width: 480px) and (max-width: 599px){
     .sliderImg{
@@ -38,6 +41,8 @@
     .sliderInfo {
         top:20%;
     }
+   
+
 }
 @media only screen and (min-width: 600px) and (max-width: 767px){
     .sliderImg{
@@ -58,20 +63,29 @@
     .sliderInfo {
         top:30%;
     }
+     #services{
+        height: 850px
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px){
     .sliderImg{
 
     height: 460px;
     width: 100% ;
-}
+    }
+     #services{
+        height: 850px
+    }
 }
 @media only screen and (min-width: 900px) and (max-width: 1023px){
     .sliderImg{
 
     height: 480px;
     width: 100% ;
-}
+    }
+    #services{
+        height: 850px
+    }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1199px){
     .sliderImg{
