@@ -41,7 +41,11 @@
     .sliderInfo {
         top:20%;
     }
-   
+    #services{
+        height: 1550px
+    }
+    
+}
 
 }
 @media only screen and (min-width: 600px) and (max-width: 767px){
@@ -66,6 +70,7 @@
      #services{
         height: 850px
     }
+   
 }
 @media only screen and (min-width: 768px) and (max-width: 899px){
     .sliderImg{
@@ -76,6 +81,7 @@
      #services{
         height: 850px
     }
+   
 }
 @media only screen and (min-width: 900px) and (max-width: 1023px){
     .sliderImg{
